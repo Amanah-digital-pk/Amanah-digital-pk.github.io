@@ -1,0 +1,187 @@
+---
+title: "Terms"
+page-layout: full
+---
+
+::: {.page-title .legal-hero}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة استعمال کی شرائط</span><span class="l-en">Amanah Terms of Use</span></span>
+
+# <span class="l-ur">صاف اصول، دونوں جانب عزت۔</span><span class="l-en">Clear rules. Respect on both sides.</span>
+
+<p class="lead"><span class="l-ur">أمانة کا مقصد گھرانوں کو محفوظ اور قابلِ اعتماد مدد دینا اور خدمت پیش کرنے والے افراد کو عزت، کام کا ریکارڈ اور بہتر مواقع فراہم کرنا ہے۔</span><span class="l-en">Amanah aims to give households safer access to trusted help while giving service providers dignity, a work record, and better opportunities.</span></p>
+
+<div class="legal-status"><span class="l-ur">موجودہ حیثیت: ویب سائٹ اور ایپ ابھی نمونہ ہیں۔ حقیقی بکنگ، ادائیگی یا شناختی تصدیق شروع ہونے سے پہلے مکمل قانونی شرائط جاری کی جائیں گی۔</span><span class="l-en">Current status: the website and app are demonstrations. Full legal terms will be issued before real bookings, payments, or identity verification begin.</span></div>
+:::
+:::
+
+::: {.section}
+::: {.wrap .legal-layout}
+::: {.legal-nav}
+<strong><span class="l-ur">اہم حصے</span><span class="l-en">Key sections</span></strong>
+
+- [<span class="l-ur">أمانة کا کردار</span><span class="l-en">Amanah's role</span>](#role)
+- [<span class="l-ur">اکاؤنٹ اور درست معلومات</span><span class="l-en">Accounts and truthful information</span>](#accounts)
+- [<span class="l-ur">تصدیق کی حد</span><span class="l-en">Limits of verification</span>](#verification)
+- [<span class="l-ur">قیمت، بکنگ اور منسوخی</span><span class="l-en">Prices, bookings, and cancellations</span>](#booking)
+- [<span class="l-ur">عزت اور حفاظت</span><span class="l-en">Respect and safety</span>](#safety)
+- [<span class="l-ur">تربیت اور نئے خدمت گار</span><span class="l-en">Training and new professionals</span>](#training)
+:::
+
+::: {.legal-content}
+## <span id="role" class="anchor-target"></span><span class="l-ur">أمانة کا کردار</span><span class="l-en">Amanah's role</span>
+
+<div data-lang-block="ur">
+أمانة گھرانوں، اداروں اور خدمت پیش کرنے والے افراد کو ملانے، معلومات سمجھنے، تصدیقی نشان دیکھنے، رابطہ کرنے اور مسئلہ حل کرنے کے لیے ایک پلیٹ فارم فراہم کرے گا۔
+
+جب تک کسی خاص خدمت میں صاف طور پر نہ بتایا جائے، خدمت گار أمانة کا ملازم نہیں ہوگا۔ Amanah مناسب جانچ اور مدد فراہم کرنے کی کوشش کرے گا، لیکن کسی شخص کے ہر عمل یا ہر نتیجے کی مکمل ضمانت نہیں دے سکتا۔
+</div>
+<div data-lang-block="en" hidden>
+Amanah will provide a platform through which households, organisations, and service providers can find one another, understand available information, review verification indicators, communicate, and seek help when a problem occurs.
+
+Unless clearly stated for a specific service, a professional will not be an employee of Amanah. Amanah will aim to provide appropriate checks and support, but cannot guarantee every action of every person or every outcome.
+</div>
+
+## <span id="accounts" class="anchor-target"></span><span class="l-ur">اکاؤنٹ اور درست معلومات</span><span class="l-en">Accounts and truthful information</span>
+
+<div data-lang-block="ur">
+ہر صارف کو اپنی صحیح معلومات دینا، موبائل نمبر محفوظ رکھنا اور دوسرے شخص کا اکاؤنٹ استعمال نہ کرنا ہوگا۔ جعلی شناخت، جھوٹا سرٹیفکیٹ، غلط کام کا ریکارڈ، جھوٹی سفارش یا کسی دوسرے شخص کی تصویر استعمال کرنا منع ہوگا۔
+
+جو شخص پڑھنے یا ایپ استعمال کرنے میں مدد چاہے، وہ قابلِ اعتماد گھر کے فرد یا أمانة کے منظور شدہ مددگار کے ذریعے اندراج کر سکے گا۔ مدد کرنے والا شخص صارف کی اجازت کے بغیر کوئی فیصلہ یا معلومات تبدیل نہیں کر سکے گا۔
+</div>
+<div data-lang-block="en" hidden>
+Each user must provide accurate information, protect access to their mobile number, and avoid using another person's account. False identity, forged certificates, invented work history, false recommendations, or another person's photograph will be prohibited.
+
+A person who needs help reading or using the app may register with assistance from a trusted family member or an approved Amanah facilitator. The helper may not make decisions or change information without the user's permission.
+</div>
+
+## <span id="verification" class="anchor-target"></span><span class="l-ur">تصدیق کی حد</span><span class="l-en">Limits of verification</span>
+
+<div data-lang-block="ur">
+Amanah ہر نشان کے ساتھ واضح کرے گا کہ کیا جانچا گیا ہے، مثلاً:
+
+- موبائل نمبر؛
+- شناختی دستاویز؛
+- اسی وقت لی گئی اپنی تصویر؛
+- سابق گھرانے یا ادارے کی سفارش؛
+- پولیس تصدیق، جہاں دستیاب اور قانونی ہو؛
+- مہارت یا تربیت کا سرٹیفکیٹ؛
+- أمانة کے ذریعے مکمل کیے گئے کام۔
+
+تصدیق کا نشان یہ نہیں کہتا کہ کسی شخص سے کبھی غلطی نہیں ہو سکتی۔ صارف کو خدمت، قیمت، وقت، گھر میں داخلے اور حفاظتی ضرورت کے بارے میں خود بھی مناسب فیصلہ کرنا ہوگا۔
+</div>
+<div data-lang-block="en" hidden>
+Amanah will explain what each indicator means, for example:
+
+- mobile-number verification;
+- identity-document review;
+- a live photograph;
+- a recommendation from a previous household or organisation;
+- police verification where available and lawful;
+- a skills or training certificate;
+- work completed through Amanah.
+
+A verification indicator does not mean that a person can never make a mistake. Users must still make reasonable decisions about the service, price, timing, home access, and safety needs.
+</div>
+
+## <span id="booking" class="anchor-target"></span><span class="l-ur">قیمت، بکنگ اور منسوخی</span><span class="l-en">Prices, bookings, and cancellations</span>
+
+<div data-lang-block="ur">
+اصل خدمت شروع ہونے پر بکنگ کی تصدیق سے پہلے یہ باتیں صاف دکھائی جائیں گی:
+
+- خدمت کی قیمت یا قیمت طے کرنے کا طریقہ؛
+- أمانة کی فیس، اگر کوئی ہو؛
+- سفر، سامان یا اضافی وقت کی ممکنہ قیمت؛
+- ادائیگی کا طریقہ؛
+- منسوخی، رقم واپسی اور شکایت کا اصول۔
+
+کوئی چھپی ہوئی فیس نہیں ہونی چاہیے۔ قیمت یا کام میں تبدیلی دونوں فریقوں کی منظوری کے بعد ہوگی۔
+</div>
+<div data-lang-block="en" hidden>
+Before a production booking is confirmed, the following should be shown clearly:
+
+- the service price or how the price will be determined;
+- any Amanah fee;
+- possible travel, material, or additional-time charges;
+- the payment method;
+- cancellation, refund, and complaint rules.
+
+There should be no hidden fees. Changes to the price or scope of work should require agreement from both sides.
+</div>
+
+## <span id="safety" class="anchor-target"></span><span class="l-ur">عزت اور حفاظت</span><span class="l-en">Respect and safety</span>
+
+<div data-lang-block="ur">
+گھرانے اور خدمت گار دونوں کو عزت، رازداری اور حفاظت کا حق ہوگا۔ یہ کام منع ہوں گے:
+
+- دھمکی، ہراسانی، گالی، تشدد یا جنسی بدسلوکی؛
+- مذہب، جنس، زبان، علاقے، ذات، معذوری یا مالی حالت کی بنیاد پر توہین؛
+- چوری، دھوکا، غیر قانونی کام یا جان بوجھ کر نقصان؛
+- کسی کی تصویر، فون نمبر یا گھر کا پتہ اجازت کے بغیر پھیلانا؛
+- پلیٹ فارم سے باہر ایسی ادائیگی یا رابطہ جس کا مقصد حفاظتی اصول سے بچنا ہو۔
+
+فوری خطرے میں پہلے مقامی ہنگامی ادارے سے رابطہ کیا جائے۔ أمانة کی شکایتی مدد ہنگامی پولیس یا طبی خدمت کا بدل نہیں ہوگی۔
+</div>
+<div data-lang-block="en" hidden>
+Households and service providers will both have a right to dignity, privacy, and safety. Prohibited conduct will include:
+
+- threats, harassment, abuse, violence, or sexual misconduct;
+- humiliation based on religion, sex, language, region, caste, disability, or financial circumstances;
+- theft, fraud, unlawful activity, or deliberate damage;
+- sharing a person's photograph, telephone number, or home address without permission;
+- off-platform payment or communication intended to avoid safety rules.
+
+In immediate danger, users should contact the appropriate local emergency service first. Amanah's complaint support will not replace emergency police or medical assistance.
+</div>
+
+## <span id="training" class="anchor-target"></span><span class="l-ur">تربیت اور نئے خدمت گار</span><span class="l-en">Training and new professionals</span>
+
+<div data-lang-block="ur">
+Amanah صرف پہلے سے مشہور یا پڑھے لکھے افراد کے لیے نہیں ہوگا۔ جس شخص کے پاس پہلے سے کام کا ریکارڈ، سرٹیفکیٹ یا سمارٹ فون کا تجربہ نہ ہو، وہ بھی مرحلہ وار آغاز کر سکے گا۔
+
+ممکنہ مدد میں یہ شامل ہو سکتے ہیں:
+
+- آواز اور تصویر کے ذریعے آسان اندراج؛
+- مقامی مددگار یا تربیت یافتہ نمائندے کی مدد؛
+- بنیادی حفاظت، صفائی، وقت کی پابندی اور گاہک سے بات کرنے کی تربیت؛
+- ہنر سیکھنے کے کم خرچ یا امدادی مواقع؛
+- پہلے کام کے لیے نگرانی یا آزمائشی درجے کا نشان؛
+- کام مکمل ہونے کے بعد تصدیق شدہ ریکارڈ اور سفارش۔
+
+بنیادی تعارف بنانے کی فیس، تربیت کی قیمت اور کسی بھی کٹوتی کو پہلے صاف بتایا جائے گا۔ تربیت مکمل کرنے سے کام ملنے کی ضمانت نہیں ہوگی، مگر صارف کا ریکارڈ مضبوط ہوگا۔
+</div>
+<div data-lang-block="en" hidden>
+Amanah is not intended only for already-established or highly literate professionals. A person without previous platform history, certificates, or smartphone experience should be able to begin through a staged process.
+
+Possible support may include:
+
+- simple voice- and image-assisted registration;
+- help from a local facilitator or trained representative;
+- basic training in safety, hygiene, punctuality, and customer communication;
+- low-cost or subsidised opportunities to learn a skill;
+- supervised or probationary status for initial work;
+- a verified record and recommendation after completed work.
+
+Any profile fee, training price, or deduction will be explained in advance. Completing training will not guarantee work, but it can strengthen a user's record.
+</div>
+
+## <span class="l-ur">شکایت، جانچ اور اکاؤنٹ کی پابندی</span><span class="l-en">Complaints, review, and account restrictions</span>
+
+<div data-lang-block="ur">
+Amanah شکایت سننے، دونوں فریقوں کا مؤقف لینے، ثبوت محفوظ کرنے اور مناسب فیصلہ کرنے کا طریقہ بنائے گا۔ خطرہ، دھوکا یا بدسلوکی کی صورت میں اکاؤنٹ عارضی طور پر روکا جا سکتا ہے۔ جہاں ممکن ہو، صارف کو وجہ، جواب دینے کا موقع اور اپیل کا طریقہ دیا جائے گا۔
+</div>
+<div data-lang-block="en" hidden>
+Amanah will establish a process for receiving a complaint, hearing both sides, preserving relevant evidence, and reaching an appropriate decision. An account may be temporarily restricted where there is a safety, fraud, or abuse concern. Where appropriate, the user should receive a reason, an opportunity to respond, and a route of appeal.
+</div>
+
+## <span class="l-ur">تبدیلی اور رابطہ</span><span class="l-en">Changes and contact</span>
+
+<div data-lang-block="ur">
+خدمت، قانون یا حفاظتی ضرورت بدلنے پر شرائط تبدیل کی جا سکتی ہیں۔ اہم تبدیلی ایپ یا ویب سائٹ پر واضح طور پر بتائی جائے گی۔ اصل صارفین کے اندراج سے پہلے کاروباری پتہ، رابطہ ای میل اور شکایت کا طریقہ یہاں شامل کیا جائے گا۔
+</div>
+<div data-lang-block="en" hidden>
+These terms may change as the service, law, or safety requirements develop. Important changes will be displayed clearly in the app or website. A business address, working contact email, and complaint route will be added before real-user onboarding.
+</div>
+:::
+:::
+:::

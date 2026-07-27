@@ -1,0 +1,64 @@
+---
+title: "Services"
+page-layout: full
+---
+
+::: {.page-title}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة خدمات</span><span class="l-en">Amanah Services</span></span>
+
+# <span class="l-ur">عملی خدمات، اعتماد کے ساتھ۔</span><span class="l-en">Practical services, organised around trust.</span>
+
+<p class="lead"><span class="l-ur">أمانة گھریلو ضرورت، ہنرمند کام، سفر اور دیکھ بھال کی خدمات ایک آسان جگہ پر مہیا کرتا ہے۔</span><span class="l-en">Amanah supports household needs, skilled work, mobility and care services through one simple platform.</span></p>
+:::
+:::
+
+::: {.section}
+::: {.wrap}
+::: {.grid3}
+::: {.card .service-card}
+<div class="icon">🏠</div>
+### <span class="l-ur">گھر اور گھریلو مدد</span><span class="l-en">Home & household</span>
+<span class="l-ur">صفائی، کھانا پکانا، کپڑے دھونا، خریداری، باغبانی اور باقاعدہ گھریلو مدد۔</span><span class="l-en">Cleaning, cooking, laundry, grocery help, gardening and regular household assistance.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🛠️</div>
+### <span class="l-ur">مرمت اور دیکھ بھال</span><span class="l-en">Repairs & maintenance</span>
+<span class="l-ur">الیکٹریشن، پلمبر، بڑھئی، پینٹر، مکینک، گھریلو آلات اور اے سی ٹیکنیشن۔</span><span class="l-en">Electricians, plumbers, carpenters, painters, mechanics and appliance or AC technicians.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🤝</div>
+### <span class="l-ur">خاندانی اور ذاتی مدد</span><span class="l-en">Family & personal support</span>
+<span class="l-ur">بچوں، بزرگوں اور مریضوں کی دیکھ بھال، تیماردار، نرسیں اور گھر پر مدد کرنے والے افراد۔</span><span class="l-en">Babysitting, elder care, patient care, home attendants, nurses and caregiver support.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🚗</div>
+### <span class="l-ur">ٹرانسپورٹ</span><span class="l-en">Transport</span>
+<span class="l-ur">روزانہ، طے شدہ یا دوسری گھریلو سفری ضرورت کے لیے ڈرائیور۔</span><span class="l-en">Drivers for recurring, scheduled or household transport requirements.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">✂️</div>
+### <span class="l-ur">ذاتی خدمات</span><span class="l-en">Personal services</span>
+<span class="l-ur">درزی، بیوٹیشن اور روزمرہ ضرورت کے دوسرے ہنرمند افراد۔</span><span class="l-en">Tailors, beauticians and other practical professionals introduced in controlled categories.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">➕</div>
+### <span class="l-ur">آئندہ شامل ہونے والی خدمات</span><span class="l-en">Future categories</span>
+<span class="l-ur">مقامی ضرورت کے مطابق تربیت، کاروباری مدد اور دوسری ماہرانہ خدمات شامل کی جا سکتی ہیں۔</span><span class="l-en">Training, business support and verified specialist services can be added as local demand is validated.</span>
+:::
+:::
+
+::: {.services-cta}
+<div>
+### <span class="l-ur">کسی خدمت کی ضرورت ہے؟</span><span class="l-en">Looking for a service?</span>
+<span class="l-ur">خدمات اور نمونہ تعارف دیکھنے کے لیے أمانة ایپ کھولیں۔</span><span class="l-en">Continue to the Amanah App to browse services and demonstration profiles.</span>
+</div>
+<a class="btnx primary" href="https://amanah-digital-pk.github.io/app/"><span class="l-ur">أمانة ایپ کھولیں</span><span class="l-en">Open Amanah App</span></a>
+:::
+:::
+:::

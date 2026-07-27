@@ -1,0 +1,46 @@
+---
+title: "Trust & Verification"
+page-layout: full
+---
+
+::: {.page-title}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة تصدیقی کارڈ</span><span class="l-en">Amanah Verification Card</span></span>
+
+# <span class="l-ur">تصدیق جو کام کے ریکارڈ کے ساتھ مضبوط ہوتی جائے۔</span><span class="l-en">Verification that grows with a professional's record.</span>
+
+<p class="lead"><span class="l-ur">أمانة میں پہلے آسان اندراج ہوتا ہے۔ اس کے بعد شناخت، سابقہ کام اور سفارشات کی جانچ سے اعتماد کا ریکارڈ مضبوط کیا جاتا ہے۔</span><span class="l-en">Amanah uses a two-stage model: accessible onboarding first, followed by stronger verification and portable work history.</span></p>
+:::
+:::
+
+::: {.section}
+::: {.wrap}
+::: {.steps}
+::: {.step-card}
+<div class="step-number">1</div>
+<div>
+### <span class="l-ur">مرحلہ 1: آسان اندراج</span><span class="l-en">Phase 1: accessible onboarding</span>
+<span class="l-ur">موبائل نمبر کی تصدیق، شناختی کارڈ کی تصویر، اسی وقت لی گئی اپنی تصویر، خدمت اور کام کے علاقے کا انتخاب۔</span><span class="l-en">Phone verification, CNIC capture, live selfie, service selection and location registration.</span>
+</div>
+:::
+
+::: {.step-card}
+<div class="step-number">2</div>
+<div>
+### <span class="l-ur">مرحلہ 2: مزید مضبوط تصدیق</span><span class="l-en">Phase 2: enhanced verification</span>
+<span class="l-ur">منظور شدہ شناختی جانچ، سابق گھرانے یا ادارے کی تصدیق، اختیاری پولیس تصدیق اور مہارت کے سرٹیفکیٹ۔</span><span class="l-en">Approved identity checks when available, employer endorsements, optional police verification and certificates.</span>
+</div>
+:::
+
+::: {.step-card}
+<div class="step-number">3</div>
+<div>
+### <span class="l-ur">ساتھ رہنے والا کام کا ریکارڈ</span><span class="l-en">Portable professional reputation</span>
+<span class="l-ur">مکمل کیے گئے کام، دوبارہ خدمات لینے والے گھرانے، وقت کی پابندی، مہارتیں اور تصدیق شدہ سفارشات۔</span><span class="l-en">Completed jobs, repeat households, punctuality, skills, certificates and verified recommendations.</span>
+</div>
+:::
+:::
+
+<div class="notice"><strong><span class="l-ur">رازداری:</span><span class="l-en">Privacy boundary:</span></strong> <span class="l-ur">یہ عوامی ویب سائٹ اصلی شناختی کارڈ، ذاتی تصویر، ادائیگی یا نجی ریکارڈ محفوظ نہیں کرتی۔</span><span class="l-en">This public GitHub Pages website does not collect or store real CNICs, selfies, payments or private records.</span></div>
+:::
+:::

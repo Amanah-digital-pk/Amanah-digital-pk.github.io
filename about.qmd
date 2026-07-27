@@ -1,0 +1,91 @@
+---
+title: "About Amanah Digital"
+page-layout: full
+---
+
+::: {.page-title}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة ڈیجیٹل کے بارے میں</span><span class="l-en">About Amanah Digital</span></span>
+
+# <span class="l-ur">پاکستان کے لیے قابلِ اعتماد خدماتی نیٹ ورک۔</span><span class="l-en">Trusted workforce infrastructure for Pakistan.</span>
+
+<p class="lead"><span class="l-ur">أمانة ڈیجیٹل ایسا خدماتی نظام بنا رہا ہے جو گھرانوں کو آسانی اور حفاظت فراہم کرے اور محنت کشوں کو شناخت، عزت اور اپنے کام کا مستقل ریکارڈ بنانے کا موقع دے۔</span><span class="l-en">Amanah Digital is developing a worker-centred services platform that combines household convenience with identity, dignity and portable professional reputation.</span></p>
+:::
+:::
+
+::: {.section}
+::: {.wrap .prose}
+## <span class="l-ur">مقصد</span><span class="l-en">Mission</span>
+<span class="l-ur">ہر گھر کے لیے قابلِ اعتماد خدمت اور ہر محنت کش کے لیے باعزت کام کے مواقع آسان بنانا۔</span><span class="l-en">Make trusted work accessible to every household and dignified professional opportunity accessible to every worker.</span>
+
+## <span class="l-ur">منزل</span><span class="l-en">Vision</span>
+<span class="l-ur">پاکستان کا سب سے قابلِ اعتماد خدماتی اور افرادی قوت کا نیٹ ورک بننا۔</span><span class="l-en">Become Pakistan's most trusted workforce and services network.</span>
+
+## <span class="l-ur">ہمارا وعدہ</span><span class="l-en">Brand promise</span>
+**<span class="l-ur">ہر خدمت۔ ہر شہر۔ بنیاد اعتماد پر۔</span><span class="l-en">Every service. Every city. Built on trust.</span>**
+
+## <span class="l-ur">ہماری اقدار</span><span class="l-en">Values</span>
+<span class="l-ur">اعتماد، عزت، حفاظت، سادگی، جواب دہی اور بہتر مواقع۔</span><span class="l-en">Trust, dignity, safety, simplicity, accountability and opportunity.</span>
+:::
+:::
+
+
+::: {.section .soft-section}
+::: {.wrap}
+::: {.section-head}
+## <span class="l-ur">أمانة کیسے مختلف ہوگا</span><span class="l-en">How Amanah will be different</span>
+
+<span class="l-ur">صرف بکنگ نہیں—گھرانوں کے لیے اعتماد اور خدمت گاروں کے لیے آگے بڑھنے کا راستہ۔</span><span class="l-en">More than booking: trust for households and a path forward for service providers.</span>
+:::
+
+::: {.grid3}
+::: {.card .model-card}
+<div class="model-number">01</div>
+
+### <span class="l-ur">صفر سے آغاز ممکن</span><span class="l-en">A fair start from zero</span>
+
+<span class="l-ur">جس شخص کے پاس پہلے کوئی آن لائن ریکارڈ یا سفارش نہ ہو، وہ شناخت، ابتدائی تربیت اور پہلے تصدیق شدہ کام سے اپنا ریکارڈ بنانا شروع کر سکے گا۔</span><span class="l-en">A person without an existing online record or recommendation can begin with identity checks, introductory training, and a first verified job.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">02</div>
+
+### <span class="l-ur">موبائل فون اور مالی سہولتوں کے استعمال میں مدد</span><span class="l-en">Help with phones and digital financial services</span>
+
+<span class="l-ur">آواز، تصویر، بڑے بٹن اور سادہ اردو کے ذریعے اسمارٹ فون، أمانة ایپ، بینک اکاؤنٹ، ایزی پیسہ یا جاز کیش استعمال کرنے میں مدد دی جا سکے گی۔ ضرورت پر تربیت یافتہ مقامی مددگار بھی رہنمائی کر سکے گا۔</span><span class="l-en">Voice guidance, visual steps, large controls, and assisted onboarding can help people use a smartphone, the Amanah app, a bank account, Easypaisa, or JazzCash safely and confidently.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">03</div>
+
+### <span class="l-ur">کمائی کے ساتھ مہارت</span><span class="l-en">Skills that improve earning potential</span>
+
+<span class="l-ur">بنیادی حفاظت، صفائی، وقت کی پابندی، گاہک سے بات چیت اور ہنر کی تربیت خدمت گار کو بہتر کام اور مناسب اجرت کے لیے تیار کر سکتی ہے۔</span><span class="l-en">Training in safety, hygiene, punctuality, communication, and practical skills can prepare professionals for better work and fairer earnings.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">04</div>
+
+### <span class="l-ur">گھرانوں کے لیے واضح اعتماد</span><span class="l-en">Clear trust for households</span>
+
+<span class="l-ur">ہر نشان کے ساتھ بتایا جائے گا کہ موبائل، شناخت، سابقہ کام، تربیت یا سفارش میں سے کیا جانچا گیا ہے—صرف ایک مبہم ستارہ نہیں۔</span><span class="l-en">Every trust indicator will state what was checked—mobile, identity, previous work, training, or recommendations—rather than relying on an unexplained star rating.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">05</div>
+
+### <span class="l-ur">صاف اور منصفانہ آمدنی</span><span class="l-en">Transparent and fair revenue</span>
+
+<span class="l-ur">گھرانے سے بکنگ یا رکنیت کی فیس، اور اختیاری تربیت یا کاروباری شراکت سے آمدنی ہو سکتی ہے۔ خدمت گار کو ہر فیس یا کٹوتی پہلے صاف بتائی جائے گی۔</span><span class="l-en">Revenue may come from household booking or membership fees, optional training, and institutional partnerships. Every professional fee or deduction should be disclosed in advance.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">06</div>
+
+### <span class="l-ur">دونوں جانب جواب دہی</span><span class="l-en">Accountability on both sides</span>
+
+<span class="l-ur">صرف خدمت گار نہیں، گھرانے بھی تصدیق، مناسب برتاؤ، وقت، ادائیگی اور شکایت کے اصول کے پابند ہوں گے۔</span><span class="l-en">Trust is mutual: households as well as professionals will be accountable for identity, conduct, time, payment, and complaint rules.</span>
+:::
+:::
+:::
+:::

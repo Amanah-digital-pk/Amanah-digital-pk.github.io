@@ -1,0 +1,133 @@
+---
+title: "Amanah Digital"
+page-layout: full
+---
+
+::: {.hero}
+::: {.wrap .hero-grid}
+::: {.hero-copy}
+<span class="eyebrow"><span class="l-ur">أمانة: پاکستان کا قابلِ اعتماد خدماتی نیٹ ورک</span><span class="l-en">Amanah: Pakistan's trusted workforce network</span></span>
+
+# <span class="l-ur">ہر خدمت۔ ہر شہر۔ بنیاد اعتماد پر۔</span><span class="l-en">Every service. Every city. Built on trust.</span>
+
+<div data-lang-block="ur">
+<p class="hero-lead">أمانة گھرانوں اور اداروں کو تصدیق شدہ خدمت گاروں اور ہنرمند افراد سے جوڑتا ہے۔ اس میں گھریلو مدد، کاریگر، ڈرائیور، تیماردار، نرسیں اور گھر پر صحت کی دیکھ بھال شامل ہیں۔</p>
+</div>
+<div data-lang-block="en" hidden>
+<p class="hero-lead">Amanah connects households and organisations with verified professionals—from household support and skilled trades to drivers, caregivers and home healthcare.</p>
+</div>
+
+<div class="button-row">
+<a class="btnx primary" href="https://amanah-digital-pk.github.io/app/"><span class="l-ur">أمانة ایپ کھولیں</span><span class="l-en">Open Amanah App</span></a>
+<a class="btnx secondary" href="services.html"><span class="l-ur">خدمات دیکھیں</span><span class="l-en">Explore services</span></a>
+</div>
+:::
+
+::: {.hero-art}
+<img src="assets/illustrations/hero-passport.svg" alt="Amanah verification card">
+:::
+:::
+:::
+
+::: {.section}
+::: {.wrap}
+::: {.section-head}
+## <span class="l-ur">روزمرہ زندگی کے لیے قابلِ اعتماد مدد</span><span class="l-en">Trusted help for everyday life</span>
+
+<div data-lang-block="ur">
+<p>أمانة بڑے اور چھوٹے دونوں شہروں کے لیے بنایا گیا ہے۔ اندراج آسان ہے اور ضرورت کی خدمت تلاش کرنا بھی سیدھا اور واضح ہے۔</p>
+</div>
+<div data-lang-block="en" hidden>
+<p>Amanah is designed for large metropolitan areas and smaller cities alike, with simple onboarding and accessible service discovery.</p>
+</div>
+:::
+
+::: {.grid4}
+::: {.card .service-card}
+<div class="icon">🏠</div>
+
+### <span class="l-ur">گھریلو مدد</span><span class="l-en">Household support</span>
+
+<span class="l-ur">صفائی، کھانا پکانا، کپڑے دھونا، خریداری میں مدد اور باغبانی۔</span><span class="l-en">Cleaning, cooking, laundry, grocery assistance and gardening.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🛠️</div>
+
+### <span class="l-ur">ہنرمند کاریگر</span><span class="l-en">Skilled trades</span>
+
+<span class="l-ur">الیکٹریشن، پلمبر، بڑھئی، پینٹر، مکینک اور اے سی ٹیکنیشن۔</span><span class="l-en">Electricians, plumbers, carpenters, painters, mechanics and AC technicians.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🚗</div>
+
+### <span class="l-ur">سفری سہولت</span><span class="l-en">Mobility</span>
+
+<span class="l-ur">تصدیق شدہ ڈرائیور اور گھر کی طے شدہ سفری ضروریات میں مدد۔</span><span class="l-en">Verified drivers and scheduled household transport support.</span>
+:::
+
+::: {.card .service-card}
+<div class="icon">🩺</div>
+
+### <span class="l-ur">دیکھ بھال</span><span class="l-en">Care services</span>
+
+<span class="l-ur">بچوں، بزرگوں اور مریضوں کی دیکھ بھال، تیماردار، نرسیں اور گھر پر مدد۔</span><span class="l-en">Babysitters, elder-care workers, caregivers, nurses and home attendants.</span>
+:::
+:::
+:::
+:::
+
+::: {.section .soft-section}
+::: {.wrap}
+::: {.section-head}
+## <span class="l-ur">اعتماد ہماری بنیادی خدمت ہے</span><span class="l-en">Trust is the product—not an afterthought</span>
+
+<span class="l-ur">أمانة آسان اندراج کے بعد شناخت اور کام کی جانچ کو مرحلہ وار مضبوط بناتا ہے۔ ہر فرد کا کام کا ریکارڈ اس کے ساتھ رہتا ہے۔</span><span class="l-en">Amanah combines accessible onboarding with stronger verification as professionals build their work history.</span>
+:::
+
+::: {.steps}
+::: {.step-card}
+<div class="step-number">1</div>
+<div>
+
+### <span class="l-ur">آسان ابتدائی اندراج</span><span class="l-en">Accessible onboarding</span>
+
+<span class="l-ur">موبائل نمبر کی تصدیق، شناختی کارڈ کی تصویر، اسی وقت لی گئی اپنی تصویر، خدمت اور کام کے علاقے کا انتخاب۔</span><span class="l-en">Phone verification, CNIC capture, live selfie, service selection and city or working-area registration.</span>
+</div>
+:::
+
+::: {.step-card}
+<div class="step-number">2</div>
+<div>
+
+### <span class="l-ur">مزید مضبوط تصدیق</span><span class="l-en">Enhanced verification</span>
+
+<span class="l-ur">دستیاب ہونے پر سرکاری شناختی جانچ، سابق گھرانے یا ادارے کی تصدیق، اختیاری پولیس تصدیق اور مہارت کے سرٹیفکیٹ۔</span><span class="l-en">Approved identity checks when available, employer endorsements, optional police verification and certificates.</span>
+</div>
+:::
+
+::: {.step-card}
+<div class="step-number">3</div>
+<div>
+
+### <span class="l-ur">ساتھ رہنے والا کام کا ریکارڈ</span><span class="l-en">Portable reputation</span>
+
+<span class="l-ur">مکمل کیے گئے کام، دوبارہ بلانے والے گھرانے، وقت کی پابندی، مہارتیں اور تصدیق شدہ سفارشات۔</span><span class="l-en">Completed jobs, repeat clients, punctuality, skills, certificates and verified household recommendations.</span>
+</div>
+:::
+:::
+:::
+:::
+
+::: {.cta-band}
+::: {.wrap .cta-inner}
+<div>
+## <span class="l-ur">أمانة ایپ دیکھیں</span><span class="l-en">Experience the Amanah App</span>
+
+<span class="l-ur">خدمات، نمونہ تعارف اور مرحلہ وار تصدیق کا طریقہ دیکھیں۔</span><span class="l-en">Browse services, explore demonstration profiles and see the two-stage verification journey.</span>
+</div>
+
+<a class="btnx light" href="https://amanah-digital-pk.github.io/app/"><span class="l-ur">ایپ کھولیں</span><span class="l-en">Launch app</span></a>
+:::
+:::

@@ -1,0 +1,171 @@
+---
+title: "Privacy"
+page-layout: full
+---
+
+::: {.page-title .legal-hero}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة رازداری</span><span class="l-en">Amanah Privacy</span></span>
+
+# <span class="l-ur">آپ کی معلومات، آپ کا اختیار۔</span><span class="l-en">Your information. Your control.</span>
+
+<p class="lead"><span class="l-ur">أمانة کا مقصد اعتماد پیدا کرنا ہے، اس لیے ہم صرف ضروری معلومات لینے، انہیں محفوظ رکھنے اور ان کے استعمال کو صاف الفاظ میں سمجھانے کا عہد کرتے ہیں۔</span><span class="l-en">Amanah is built around trust. We therefore aim to collect only necessary information, protect it carefully, and explain its use in clear language.</span></p>
+
+<div class="legal-status"><span class="l-ur">موجودہ حیثیت: یہ ابتدائی رازداری کا مسودہ ہے۔ اصل صارفین کے اندراج سے پہلے قانونی اور حفاظتی جائزہ مکمل کیا جائے گا۔</span><span class="l-en">Current status: this is an early privacy draft. Legal and security review will be completed before real-user onboarding begins.</span></div>
+:::
+:::
+
+::: {.section}
+::: {.wrap .legal-layout}
+::: {.legal-nav}
+<strong><span class="l-ur">اس صفحے پر</span><span class="l-en">On this page</span></strong>
+
+- [<span class="l-ur">اس وقت ویب سائٹ کیا کرتی ہے</span><span class="l-en">What the current site does</span>](#current-site)
+- [<span class="l-ur">آئندہ کون سی معلومات لی جا سکتی ہیں</span><span class="l-en">Future information we may collect</span>](#future-data)
+- [<span class="l-ur">معلومات کیوں استعمال ہوں گی</span><span class="l-en">Why information may be used</span>](#why-use)
+- [<span class="l-ur">شناختی معلومات کی حفاظت</span><span class="l-en">Protecting identity information</span>](#identity)
+- [<span class="l-ur">معلومات بانٹنا</span><span class="l-en">Information sharing</span>](#sharing)
+- [<span class="l-ur">آپ کے اختیارات</span><span class="l-en">Your choices</span>](#choices)
+:::
+
+::: {.legal-content}
+## <span id="current-site" class="anchor-target"></span><span class="l-ur">اس وقت ویب سائٹ کیا کرتی ہے</span><span class="l-en">What the current site does</span>
+
+<div data-lang-block="ur">
+یہ عوامی GitHub Pages ویب سائٹ اور نمونہ ایپ ابھی کسی شخص کا شناختی کارڈ، ذاتی تصویر، فون نمبر، ادائیگی، گھر کا پتہ یا حقیقی کام کا ریکارڈ محفوظ نہیں کرتے۔ ہوسٹنگ فراہم کرنے والا ادارہ عام تکنیکی معلومات، مثلاً براؤزر یا صفحہ دیکھنے کا ریکارڈ، اپنی پالیسی کے مطابق رکھ سکتا ہے۔
+</div>
+<div data-lang-block="en" hidden>
+This public GitHub Pages website and demonstration app do not currently store any person's identity card, photograph, telephone number, payment details, home address, or real work history. The hosting provider may process ordinary technical information, such as browser or page-request logs, under its own policy.
+</div>
+
+## <span id="future-data" class="anchor-target"></span><span class="l-ur">آئندہ کون سی معلومات لی جا سکتی ہیں</span><span class="l-en">Future information we may collect</span>
+
+<div data-lang-block="ur">
+اصل خدمت شروع ہونے پر ضرورت کے مطابق یہ معلومات لی جا سکتی ہیں:
+
+- نام، موبائل نمبر، شہر اور کام کا علاقہ؛
+- گھرانے یا خدمت گار کا تعارف؛
+- خدمت، دستیابی، زبان اور مہارت؛
+- شناختی کارڈ کی معلومات اور اسی وقت لی گئی اپنی تصویر؛
+- سابقہ کام، سفارشات، تربیت اور سرٹیفکیٹ؛
+- بکنگ، ادائیگی، شکایت اور حفاظتی واقعے کا ریکارڈ؛
+- ایپ کے استعمال سے متعلق محدود تکنیکی معلومات۔
+
+ہر معلومات صرف اس وقت لی جائے گی جب اس کے استعمال کی واضح وجہ ہو۔
+</div>
+<div data-lang-block="en" hidden>
+When the real service launches, we may collect information that is necessary for the requested function, including:
+
+- name, mobile number, city, and working area;
+- household or professional profile information;
+- service category, availability, language, and skills;
+- identity-card information and a live photograph;
+- work history, recommendations, training, and certificates;
+- booking, payment, complaint, and safety-incident records;
+- limited technical information about app use.
+
+Information should be collected only where there is a clear and stated purpose.
+</div>
+
+## <span id="why-use" class="anchor-target"></span><span class="l-ur">معلومات کیوں استعمال ہوں گی</span><span class="l-en">Why information may be used</span>
+
+<div data-lang-block="ur">
+معلومات کو صرف ان کاموں کے لیے استعمال کیا جائے گا:
+
+- اکاؤنٹ بنانا اور موبائل نمبر کی تصدیق؛
+- مناسب خدمت یا خدمت گار تلاش کرنا؛
+- شناخت، مہارت، سفارش یا کام کا ریکارڈ جانچنا؛
+- بکنگ، ادائیگی اور رابطے کی سہولت دینا؛
+- دھوکے، بدسلوکی اور خطرے کو کم کرنا؛
+- شکایت سننا، مدد دینا اور مسئلہ حل کرنا؛
+- صارف کی اجازت سے تربیت یا مفید موقع بتانا۔
+
+Amanah کسی شخص کی شناختی معلومات فروخت نہیں کرے گا۔
+</div>
+<div data-lang-block="en" hidden>
+Information may be used to:
+
+- create an account and verify a mobile number;
+- find an appropriate service or professional;
+- review identity, skills, recommendations, or work history;
+- support booking, payment, and communication;
+- reduce fraud, abuse, and safety risks;
+- receive complaints, provide support, and resolve problems;
+- offer relevant training or opportunities with the user's permission.
+
+Amanah will not sell a person's identity information.
+</div>
+
+## <span id="identity" class="anchor-target"></span><span class="l-ur">شناختی معلومات کی حفاظت</span><span class="l-en">Protecting identity information</span>
+
+<div data-lang-block="ur">
+شناختی کارڈ، تصویر اور دوسری حساس معلومات عام پروفائل پر ظاہر نہیں کی جائیں گی۔ ایسی معلومات کے لیے محفوظ ذخیرہ، محدود عملے کی رسائی، ریکارڈ شدہ رسائی، خفیہ ترسیل اور مقررہ مدت کے بعد حذف کرنے کا طریقہ ضروری ہوگا۔
+
+NADRA یا کسی دوسرے منظور شدہ ادارے سے تصدیق صرف قانونی اجازت، صارف کی رضامندی اور منظور شدہ طریقے کے تحت کی جائے گی۔ “تصدیق شدہ” کا نشان صرف اتنی جانچ ظاہر کرے گا جتنی حقیقت میں مکمل ہوئی ہو۔
+</div>
+<div data-lang-block="en" hidden>
+Identity cards, photographs, and other sensitive information will not be displayed on public profiles. Secure storage, restricted staff access, access records, encrypted transmission, and defined deletion periods will be required for such information.
+
+Verification through NADRA or another approved provider will occur only through an authorised process, with user consent, and where legally permitted. A “verified” label will describe only the checks that were actually completed.
+</div>
+
+## <span id="sharing" class="anchor-target"></span><span class="l-ur">معلومات بانٹنا</span><span class="l-en">Information sharing</span>
+
+<div data-lang-block="ur">
+معلومات صرف ضرورت کے مطابق ان فریقوں کے ساتھ بانٹی جا سکتی ہیں:
+
+- وہ گھرانہ یا خدمت گار جس کے ساتھ بکنگ کی جا رہی ہو؛
+- ادائیگی، موبائل پیغام، نقشہ یا ہوسٹنگ فراہم کرنے والا منظور شدہ ادارہ؛
+- شناخت یا سرٹیفکیٹ جانچنے والا مجاز ادارہ؛
+- قانون کے تحت مجاز سرکاری ادارہ؛
+- صارف کی واضح اجازت سے تربیتی یا فلاحی شریک ادارہ۔
+
+ہر شریک ادارے کو صرف اتنی معلومات ملنی چاہئیں جتنی اس کام کے لیے ضروری ہوں۔
+</div>
+<div data-lang-block="en" hidden>
+Information may be shared only where needed with:
+
+- the household or professional involved in a requested booking;
+- approved payment, messaging, mapping, or hosting providers;
+- authorised identity or certificate-verification providers;
+- a legally authorised public authority;
+- a training or social-support partner with the user's clear permission.
+
+Each partner should receive only the information necessary for its specific task.
+</div>
+
+## <span id="choices" class="anchor-target"></span><span class="l-ur">آپ کے اختیارات</span><span class="l-en">Your choices</span>
+
+<div data-lang-block="ur">
+اصل خدمت شروع ہونے پر صارف یہ درخواست کر سکے گا:
+
+- اپنی معلومات دیکھنے یا درست کرنے کی؛
+- غیر ضروری معلومات حذف کرنے کی؛
+- تربیتی یا تشہیری پیغام بند کرنے کی؛
+- اکاؤنٹ بند کرنے کی؛
+- غلط تصدیقی نشان یا سفارش پر اعتراض کرنے کی؛
+- رازداری یا حفاظت کی شکایت درج کرنے کی۔
+
+کچھ ریکارڈ قانونی، ادائیگی یا حفاظتی ضرورت کے باعث محدود مدت تک رکھنا پڑ سکتا ہے۔
+</div>
+<div data-lang-block="en" hidden>
+Once the production service launches, users should be able to request:
+
+- access to or correction of their information;
+- deletion of information that is no longer needed;
+- an end to optional promotional or training messages;
+- account closure;
+- review of an incorrect verification label or recommendation;
+- submission of a privacy or safety complaint.
+
+Some records may need to be retained for a limited period because of legal, payment, or safety requirements.
+</div>
+
+::: {.legal-contact}
+### <span class="l-ur">رابطہ</span><span class="l-en">Contact</span>
+
+<span class="l-ur">اصل صارفین کے اندراج سے پہلے رازداری کے ذمہ دار فرد، مکمل کاروباری پتہ اور رابطہ ای میل یہاں شامل کیے جائیں گے۔</span><span class="l-en">A named privacy contact, full business address, and working email address will be added here before real-user onboarding.</span>
+:::
+:::
+:::
+:::
