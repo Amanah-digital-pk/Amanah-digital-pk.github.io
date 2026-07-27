@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: _site
-
   render:
     - index.qmd
     - services.qmd
@@ -9,7 +8,6 @@ project:
     - about.qmd
     - privacy.qmd
     - terms.qmd
-
   resources:
     - assets/**
 
@@ -17,22 +15,6 @@ website:
   title: "Amanah Digital"
   site-url: "https://amanah-digital-pk.github.io"
   favicon: assets/brand/amanah-mark-favicon.svg
-  navbar:
-    pinned: true
-    logo: assets/brand/amanah-navbar-en.svg
-    logo-alt: "Amanah Digital"
-    left:
-      - href: index.qmd
-        text: Home
-      - href: services.qmd
-        text: Services
-      - href: trust.qmd
-        text: Trust & Verification
-      - href: about.qmd
-        text: About
-    right:
-      - href: "https://amanah-digital-pk.github.io/app/"
-        text: Open Amanah App
   page-footer:
     left: "© 2026 Amanah Digital"
     center: "Every service. Every city. Built on trust."
@@ -49,6 +31,7 @@ format:
     toc: false
     smooth-scroll: true
     anchor-sections: false
+    include-before-body: assets/includes/site-header.html
     include-in-header:
       text: |
         <meta name="theme-color" content="#0F5D46">

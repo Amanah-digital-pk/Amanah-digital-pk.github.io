@@ -83,3 +83,17 @@ Every prominent branded label begins with:
 - English: `Amanah`
 
 Short navigation labels remain concise for usability.
+
+## v4.3 definitive layout
+
+- Replaced Quarto's generated navbar with one custom bilingual header.
+- Eliminated duplicate-logo generation at the source.
+- Applied equal left and right gutters with a centred 1500 px canvas.
+- Added a controlled smartphone/tablet hamburger menu.
+
+
+## v4.4 final corrections
+- Correct logo is selected before first paint; no English-logo flash in Urdu.
+- Quarto page-grid side columns are disabled.
+- Main canvas is centred and widened to a maximum of 1600 px with equal gutters.
+- Header/navigation ordering is unchanged from v4.3.

@@ -1,66 +1,42 @@
-
 (() => {
   const STORAGE_KEY = "amanah-language";
-  const preferred = localStorage.getItem(STORAGE_KEY) || "ur";
+  const initial = localStorage.getItem(STORAGE_KEY) || "ur";
 
-  const labels = {
-    ur: {
-      home: "ہوم",
-      services: "خدمات",
-      trust: "اعتماد اور تصدیق",
-      about: "ہمارے بارے میں",
-      app: "أمانة ایپ کھولیں",
-      privacy: "رازداری",
-      terms: "شرائط",
-      footerPromise: "ہر خدمت۔ ہر شہر۔ بنیاد اعتماد پر۔"
-    },
-    en: {
-      home: "Home",
-      services: "Services",
-      trust: "Trust & Verification",
-      about: "About",
-      app: "Open Amanah App",
-      privacy: "Privacy",
-      terms: "Terms",
-      footerPromise: "Every service. Every city. Built on trust."
-    }
-  };
+  const assetUrl = (path) => new URL(path, document.baseURI).href;
 
-  const assetUrl = path => new URL(path, document.baseURI).href;
-
-  function translateChrome(lang) {
-    const t = labels[lang];
-    const pages = {
-      "index.html": t.home,
-      "services.html": t.services,
-      "trust.html": t.trust,
-      "about.html": t.about
-    };
-
-    document.querySelectorAll(".navbar-nav .nav-link").forEach(link => {
-      const href = (link.getAttribute("href") || "").split("/").pop() || "index.html";
-      if (pages[href]) link.textContent = pages[href];
-      if ((link.getAttribute("href") || "").includes("/app/")) link.textContent = t.app;
+  function updateLanguageText(lang) {
+    document.querySelectorAll("[data-en][data-ur]").forEach((el) => {
+      el.textContent = lang === "ur" ? el.dataset.ur : el.dataset.en;
     });
+  }
 
-    const logo = document.querySelector(".navbar-brand img, .navbar-logo");
-    if (logo) {
-      logo.src = assetUrl(
-        lang === "ur"
-          ? "assets/brand/amanah-navbar-ur.svg"
-          : "assets/brand/amanah-navbar-en.svg"
-      );
-      logo.alt = lang === "ur" ? "أمانة ڈیجیٹل" : "Amanah Digital";
-    }
+  function updatePageBlocks(lang) {
+    document.querySelectorAll("[data-lang-block]").forEach((el) => {
+      const visible = el.dataset.langBlock === lang;
+      el.hidden = !visible;
+      el.style.display = visible ? "" : "none";
+    });
+  }
 
-    document.querySelectorAll("footer a").forEach(link => {
+  function updateFooter(lang) {
+    const labels = lang === "ur"
+      ? {privacy: "رازداری", terms: "شرائط", promise: "ہر خدمت۔ ہر شہر۔ بنیاد اعتماد پر۔"}
+      : {privacy: "Privacy", terms: "Terms", promise: "Every service. Every city. Built on trust."};
+
+    document.querySelectorAll("footer a").forEach((link) => {
       const href = link.getAttribute("href") || "";
-      if (href.includes("privacy")) link.textContent = t.privacy;
-      if (href.includes("terms")) link.textContent = t.terms;
+      if (href.includes("privacy")) link.textContent = labels.privacy;
+      if (href.includes("terms")) link.textContent = labels.terms;
     });
-
     document.querySelectorAll(".nav-footer-center, .footer-center")
-      .forEach(el => el.textContent = t.footerPromise);
+      .forEach((el) => { el.textContent = labels.promise; });
+  }
+
+  function updateActivePage() {
+    const page = (location.pathname.split("/").pop() || "index.html").replace(/\.html$/, "") || "index";
+    document.querySelectorAll("[data-page]").forEach((link) => {
+      link.classList.toggle("active", link.dataset.page === page);
+    });
   }
 
   function setLanguage(lang) {
@@ -70,45 +46,43 @@
     root.dir = lang === "ur" ? "rtl" : "ltr";
     localStorage.setItem(STORAGE_KEY, lang);
 
-    document.querySelectorAll("[data-lang-block]").forEach(el => {
-      const active = el.dataset.langBlock === lang;
-      el.hidden = !active;
-      el.style.display = active ? "" : "none";
+    document.querySelectorAll(".language-switch button").forEach((button) => {
+      const active = button.dataset.langChoice === lang;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
     });
 
-    document.querySelectorAll(".language-switch button").forEach(btn => {
-      const active = btn.dataset.langChoice === lang;
-      btn.classList.toggle("active", active);
-      btn.setAttribute("aria-pressed", String(active));
-    });
-
-    translateChrome(lang);
+    updateLanguageText(lang);
+    updatePageBlocks(lang);
+    updateFooter(lang);
+    updateActivePage();
     root.classList.add("language-ready");
   }
 
-  function installSwitch() {
-    if (document.querySelector(".language-switch")) return;
-
-    const switcher = document.createElement("div");
-    switcher.className = "language-switch";
-    switcher.setAttribute("aria-label", "زبان / Language");
-    switcher.innerHTML = `
-      <button type="button" data-lang-choice="ur">اردو</button>
-      <button type="button" data-lang-choice="en">English</button>
-    `;
-
-    switcher.addEventListener("click", event => {
-      const button = event.target.closest("button[data-lang-choice]");
-      if (button) setLanguage(button.dataset.langChoice);
+  function setupHeader() {
+    document.querySelectorAll(".language-switch button").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.langChoice));
     });
 
-    const rightNav = document.querySelector(".navbar-nav.ms-auto");
-    if (rightNav) rightNav.prepend(switcher);
-    else document.querySelector(".navbar-container")?.appendChild(switcher);
+    const toggle = document.querySelector(".amanah-menu-toggle");
+    const panel = document.getElementById("amanah-mobile-panel");
+    if (toggle && panel) {
+      toggle.addEventListener("click", () => {
+        const open = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!open));
+        panel.hidden = open;
+      });
+      panel.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          panel.hidden = true;
+        });
+      });
+    }
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    installSwitch();
-    setLanguage(preferred);
+    setupHeader();
+    setLanguage(initial);
   });
 })();
