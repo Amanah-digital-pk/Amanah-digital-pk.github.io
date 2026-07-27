@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: _site
+
+  render:
+    - index.qmd
+    - services.qmd
+    - trust.qmd
+    - about.qmd
+    - privacy.qmd
+    - terms.qmd
+
   resources:
     - assets/**
 
