@@ -1209,179 +1209,347 @@ html[data-lang="ur"] .navbar-logo {
   }
 }
 
-
 /* =========================================================
-   v3.8 — compact single-row desktop navbar
-   Removes excess top whitespace and aligns the Urdu logo
-   on the same row as navigation, matching the English layout.
+   v4.3 DEFINITIVE CUSTOM HEADER + BALANCED RESPONSIVE CANVAS
+   Quarto's generated navbar is disabled in _quarto.yml.
    ========================================================= */
 
-@media (min-width: 992px) {
-  #quarto-header,
-  .navbar,
-  .navbar-container {
-    min-height: 0 !important;
-  }
+#quarto-header { display: none !important; }
 
-  .navbar {
-    height: 86px !important;
-    padding: 0 !important;
-  }
-
-  .navbar-container {
-    width: min(1240px, calc(100% - 2rem)) !important;
-    max-width: 1240px !important;
-    height: 86px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    gap: 1.2rem !important;
-    padding: 0 !important;
-  }
-
-  .navbar-brand,
-  html[data-lang="ur"] .navbar-brand {
-    position: static !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    flex: 0 0 auto !important;
-    width: 235px !important;
-    min-width: 235px !important;
-    height: 70px !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    order: 0 !important;
-  }
-
-  html[data-lang="ur"] .navbar-brand {
-    justify-content: flex-end !important;
-    order: 2 !important;
-  }
-
-  .navbar-brand img,
-  .navbar-logo,
-  html[data-lang="ur"] .navbar-brand img,
-  html[data-lang="ur"] .navbar-logo {
-    display: block !important;
-    width: 225px !important;
-    max-width: 225px !important;
-    height: 66px !important;
-    max-height: 66px !important;
-    object-fit: contain !important;
-    object-position: center !important;
-  }
-
-  .navbar-collapse,
-  html[data-lang="ur"] .navbar-collapse {
-    position: static !important;
-    display: flex !important;
-    flex: 1 1 auto !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    min-width: 0 !important;
-    width: auto !important;
-    height: 86px !important;
-    gap: 1rem !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    order: 1 !important;
-  }
-
-  html[data-lang="ur"] .navbar-collapse {
-    direction: rtl !important;
-  }
-
-  .navbar-nav.me-auto,
-  html[data-lang="ur"] .navbar-nav.me-auto {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: .15rem !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    width: auto !important;
-  }
-
-  .navbar-nav.ms-auto,
-  html[data-lang="ur"] .navbar-nav.ms-auto {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-    gap: .65rem !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: auto !important;
-    flex: 0 0 auto !important;
-  }
-
-  html[data-lang="ur"] .navbar-nav.ms-auto {
-    justify-content: flex-start !important;
-    direction: rtl !important;
-  }
-
-  .navbar-nav .nav-link {
-    display: inline-flex !important;
-    align-items: center !important;
-    min-height: 42px !important;
-    padding: .56rem .68rem !important;
-    line-height: 1.15 !important;
-    white-space: nowrap !important;
-  }
-
-  .language-switch {
-    margin: 0 !important;
-    align-self: center !important;
-  }
-
-  .navbar-search {
-    margin: 0 !important;
-    align-self: center !important;
-  }
+.amanah-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  width: 100%;
+  background: rgba(250,250,247,.97);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(18px);
 }
 
-@media (min-width: 992px) and (max-width: 1180px) {
-  .navbar,
-  .navbar-container,
-  .navbar-collapse {
-    height: 80px !important;
-  }
+.amanah-header-inner {
+  width: min(1500px, calc(100% - 2rem));
+  min-height: 76px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 245px minmax(0,1fr) auto;
+  align-items: center;
+  gap: 1.25rem;
+}
 
-  .navbar-brand,
-  html[data-lang="ur"] .navbar-brand {
-    width: 205px !important;
-    min-width: 205px !important;
-    height: 62px !important;
-  }
+.amanah-custom-brand {
+  display: flex;
+  align-items: center;
+  width: 235px;
+  height: 66px;
+  text-decoration: none;
+}
 
-  .navbar-brand img,
-  .navbar-logo,
-  html[data-lang="ur"] .navbar-brand img,
-  html[data-lang="ur"] .navbar-logo {
-    width: 198px !important;
-    max-width: 198px !important;
-    height: 58px !important;
-    max-height: 58px !important;
-  }
+.amanah-custom-brand img {
+  display: block;
+  width: 225px;
+  max-width: 100%;
+  height: 62px;
+  object-fit: contain;
+}
 
-  .navbar-nav .nav-link {
-    padding-inline: .48rem !important;
-    font-size: .95rem !important;
+.amanah-primary-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .2rem;
+  min-width: 0;
+}
+
+.amanah-primary-nav a,
+.amanah-mobile-panel a,
+.amanah-app-link {
+  color: var(--charcoal);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.amanah-primary-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: .55rem .72rem;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.amanah-primary-nav a:hover,
+.amanah-primary-nav a.active {
+  color: var(--emerald);
+  background: var(--emerald-light);
+}
+
+.amanah-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .75rem;
+  white-space: nowrap;
+}
+
+.amanah-app-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding-inline: .35rem;
+}
+
+.amanah-menu-toggle,
+.amanah-mobile-panel { display: none; }
+
+html[data-lang="ur"] .amanah-header-inner {
+  grid-template-columns: auto minmax(0,1fr) 255px;
+}
+
+html[data-lang="ur"] .amanah-custom-brand {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  justify-content: flex-end;
+  width: 245px;
+}
+
+html[data-lang="ur"] .amanah-primary-nav {
+  grid-column: 2;
+  grid-row: 1;
+  direction: rtl;
+}
+
+html[data-lang="ur"] .amanah-header-actions {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  direction: rtl;
+}
+
+/* Balanced page width: equal gutters on both sides */
+.wrap,
+.page-title > .wrap,
+.section > .wrap,
+.hero > .wrap,
+.cta-band > .wrap,
+.nav-footer {
+  width: min(1500px, calc(100% - 2rem)) !important;
+  max-width: 1500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#quarto-content,
+#quarto-content.page-columns,
+main.content,
+.page-columns,
+.page-layout-full,
+.quarto-container {
+  width: 100% !important;
+  max-width: none !important;
+  margin-inline: auto !important;
+}
+
+.hero-art,
+.hero-copy { min-width: 0; }
+.hero-art img { width: 100%; max-width: 680px; margin-inline: auto; }
+
+@media (min-width: 992px) and (max-width: 1240px) {
+  .amanah-header-inner {
+    width: calc(100% - 1.25rem);
+    grid-template-columns: 195px minmax(0,1fr) auto;
+    gap: .55rem;
   }
+  html[data-lang="ur"] .amanah-header-inner {
+    grid-template-columns: auto minmax(0,1fr) 205px;
+  }
+  .amanah-custom-brand,
+  html[data-lang="ur"] .amanah-custom-brand { width: 195px; }
+  .amanah-custom-brand img { width: 188px; height: 56px; }
+  .amanah-primary-nav a { padding-inline: .46rem; font-size: .94rem; }
+  .language-switch button { min-width: 58px; padding-inline: .5rem; }
 }
 
 @media (max-width: 991px) {
-  .navbar {
-    min-height: 72px !important;
-    height: auto !important;
-    padding: 0 !important;
+  .amanah-header-inner {
+    width: calc(100% - 1rem);
+    min-height: 68px;
+    grid-template-columns: minmax(0,1fr) auto;
+    gap: .75rem;
   }
 
-  .navbar-container {
-    min-height: 72px !important;
-    height: auto !important;
-    padding-block: .35rem !important;
+  .amanah-custom-brand,
+  html[data-lang="ur"] .amanah-custom-brand {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    justify-content: flex-start;
+    width: 175px;
+    height: 56px;
+  }
+
+  html[data-lang="ur"] .amanah-custom-brand {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  .amanah-custom-brand img { width: 168px; height: 52px; }
+  .amanah-primary-nav,
+  .amanah-header-actions { display: none !important; }
+
+  .amanah-menu-toggle {
+    grid-column: 2;
+    display: inline-flex;
+    width: 46px;
+    height: 42px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .amanah-menu-toggle span {
+    display: block;
+    width: 21px;
+    height: 2px;
+    background: var(--emerald-dark);
+  }
+
+  .amanah-mobile-panel {
+    display: block;
+    border-top: 1px solid var(--line);
+    background: var(--ivory);
+  }
+  .amanah-mobile-panel[hidden] { display: none !important; }
+  .amanah-mobile-panel nav {
+    width: calc(100% - 1rem);
+    margin-inline: auto;
+    padding: .65rem 0 1rem;
+    display: grid;
+    gap: .25rem;
+  }
+  .amanah-mobile-panel a {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    padding: .65rem .8rem;
+    border-radius: 12px;
+  }
+  .amanah-mobile-panel a.active { background: var(--emerald-light); color: var(--emerald); }
+
+  .wrap,
+  .page-title > .wrap,
+  .section > .wrap,
+  .hero > .wrap,
+  .cta-band > .wrap,
+  .nav-footer {
+    width: calc(100% - 1rem) !important;
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .wrap,
+  .page-title > .wrap,
+  .section > .wrap,
+  .hero > .wrap,
+  .cta-band > .wrap,
+  .nav-footer,
+  .amanah-header-inner,
+  .amanah-mobile-panel nav {
+    width: calc(100% - .75rem) !important;
+  }
+  .amanah-custom-brand,
+  html[data-lang="ur"] .amanah-custom-brand { width: 155px; }
+  .amanah-custom-brand img { width: 150px; height: 48px; }
+}
+
+
+/* =========================================================
+   v4.4 FINAL: wider centred canvas + zero logo flash
+   No navigation order or visual structure is changed.
+   ========================================================= */
+
+/* Both logo files are present in the HTML. The language is set
+   synchronously in <head>, so the correct logo is visible on
+   the first browser paint—without an English-logo flash. */
+.amanah-brand-logo {
+  display: block;
+  width: 225px;
+  max-width: 100%;
+  height: 62px;
+  object-fit: contain;
+}
+html[data-lang="en"] .amanah-brand-logo-ur,
+html[data-lang="ur"] .amanah-brand-logo-en {
+  display: none !important;
+}
+
+/* Remove Quarto's invisible page-grid side columns. The custom
+   .wrap containers remain responsible for safe centred margins. */
+#quarto-content.page-columns,
+#quarto-content,
+main.content,
+main.content.page-columns,
+.page-columns,
+.page-layout-full,
+.quarto-container {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Wider, symmetric desktop canvas. On a 1665 px viewport this
+   gives approximately 16 px on each side, not a narrow centre column. */
+.amanah-header-inner,
+.wrap,
+.page-title > .wrap,
+.section > .wrap,
+.hero > .wrap,
+.cta-band > .wrap,
+.nav-footer {
+  width: min(1600px, calc(100% - 2rem)) !important;
+  max-width: 1600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Prevent hero children from creating asymmetric overflow. */
+.hero-grid {
+  width: 100% !important;
+  max-width: none !important;
+}
+.hero-copy, .hero-art { min-width: 0 !important; }
+.hero-art img { max-width: 680px; }
+
+@media (max-width: 991px) {
+  .amanah-brand-logo { width: 168px; height: 52px; }
+  .amanah-header-inner,
+  .wrap,
+  .page-title > .wrap,
+  .section > .wrap,
+  .hero > .wrap,
+  .cta-band > .wrap,
+  .nav-footer {
+    width: calc(100% - 1rem) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .amanah-brand-logo { width: 150px; height: 48px; }
+  .amanah-header-inner,
+  .wrap,
+  .page-title > .wrap,
+  .section > .wrap,
+  .hero > .wrap,
+  .cta-band > .wrap,
+  .nav-footer {
+    width: calc(100% - .75rem) !important;
   }
 }

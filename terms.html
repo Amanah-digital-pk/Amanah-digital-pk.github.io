@@ -46,11 +46,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -94,63 +94,53 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/brand/amanah-navbar-en.svg" alt="Amanah Digital" class="navbar-logo light-content">
-    <img src="./assets/brand/amanah-navbar-en.svg" alt="Amanah Digital" class="navbar-logo dark-content">
-    </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Amanah Digital</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./services.html"> 
-<span class="menu-text">Services</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./trust.html"> 
-<span class="menu-text">Trust &amp; Verification</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://amanah-digital-pk.github.io/app/"> 
-<span class="menu-text">Open Amanah App</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
+<header class="amanah-site-header" id="amanah-site-header">
+  <div class="amanah-header-inner">
+    <a class="amanah-custom-brand" href="index.html" aria-label="Amanah Digital home">
+      <img class="amanah-brand-logo amanah-brand-logo-en" src="assets/brand/amanah-navbar-en.svg" alt="Amanah Digital">
+      <img class="amanah-brand-logo amanah-brand-logo-ur" src="assets/brand/amanah-navbar-ur.svg" alt="أمانة ڈیجیٹل">
+    </a>
+
+    <nav class="amanah-primary-nav" aria-label="Primary navigation">
+      <a href="index.html" data-page="index" data-en="Home" data-ur="ہوم">Home</a>
+      <a href="services.html" data-page="services" data-en="Services" data-ur="خدمات">Services</a>
+      <a href="trust.html" data-page="trust" data-en="Trust &amp; Verification" data-ur="اعتماد اور تصدیق">Trust &amp; Verification</a>
+      <a href="about.html" data-page="about" data-en="About" data-ur="ہمارے بارے میں">About</a>
+    </nav>
+
+    <div class="amanah-header-actions">
+      <div class="language-switch" aria-label="زبان / Language">
+        <button type="button" data-lang-choice="ur">اردو</button>
+        <button type="button" data-lang-choice="en">English</button>
+      </div>
+      <a class="amanah-app-link" href="https://amanah-digital-pk.github.io/app/" data-en="Open Amanah App" data-ur="أمانة ایپ کھولیں">Open Amanah App</a>
+    </div>
+
+    <button class="amanah-menu-toggle" type="button" aria-expanded="false" aria-controls="amanah-mobile-panel" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="amanah-mobile-panel" id="amanah-mobile-panel" hidden="">
+    <nav aria-label="Mobile navigation">
+      <a href="index.html" data-page="index" data-en="Home" data-ur="ہوم">Home</a>
+      <a href="services.html" data-page="services" data-en="Services" data-ur="خدمات">Services</a>
+      <a href="trust.html" data-page="trust" data-en="Trust &amp; Verification" data-ur="اعتماد اور تصدیق">Trust &amp; Verification</a>
+      <a href="about.html" data-page="about" data-en="About" data-ur="ہمارے بارے میں">About</a>
+      <a href="https://amanah-digital-pk.github.io/app/" data-en="Open Amanah App" data-ur="أمانة ایپ کھولیں">Open Amanah App</a>
+    </nav>
+  </div>
+</header>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
