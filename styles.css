@@ -1553,3 +1553,108 @@ main.content.page-columns,
     width: calc(100% - .75rem) !important;
   }
 }
+
+/* =========================================================
+   v4.5 MOBILE-ONLY HEADER OPTIMISATION
+   Desktop/tablet layout above 991px remains unchanged.
+   - Urdu: menu button left, logo right
+   - English: logo left, menu button right
+   - Language switch visible inside the opened mobile menu
+   ========================================================= */
+
+@media (max-width: 991px) {
+  /* Prevent document RTL from reversing or centring grid tracks. */
+  .amanah-header-inner,
+  html[data-lang="ur"] .amanah-header-inner,
+  html[data-lang="en"] .amanah-header-inner {
+    direction: ltr !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    grid-template-rows: 68px !important;
+    align-items: center !important;
+  }
+
+  /* English: brand left, menu right. */
+  html[data-lang="en"] .amanah-custom-brand {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    justify-self: start !important;
+  }
+  html[data-lang="en"] .amanah-menu-toggle {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+  }
+
+  /* Urdu: menu left, brand right. */
+  html[data-lang="ur"] .amanah-custom-brand {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+    justify-content: flex-end !important;
+  }
+  html[data-lang="ur"] .amanah-menu-toggle {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    justify-self: start !important;
+  }
+
+  .amanah-menu-toggle {
+    margin: 0 !important;
+  }
+
+  .amanah-mobile-panel {
+    direction: ltr !important;
+  }
+
+  .amanah-mobile-language {
+    width: calc(100% - 1rem);
+    margin-inline: auto;
+    padding: .8rem 0 .45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .amanah-mobile-language-label {
+    color: var(--charcoal);
+    font-weight: 750;
+  }
+
+  .amanah-mobile-language .language-switch {
+    display: inline-flex !important;
+    margin: 0 !important;
+    flex: 0 0 auto;
+  }
+
+  html[data-lang="ur"] .amanah-mobile-language {
+    direction: rtl !important;
+  }
+
+  html[data-lang="ur"] .amanah-mobile-panel nav {
+    direction: rtl !important;
+    text-align: right;
+  }
+
+  html[data-lang="en"] .amanah-mobile-panel nav {
+    direction: ltr !important;
+    text-align: left;
+  }
+
+  html[data-lang="ur"] .amanah-mobile-panel a {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .amanah-mobile-language {
+    width: calc(100% - .75rem);
+  }
+
+  .amanah-mobile-language .language-switch button {
+    min-width: 62px;
+    padding-inline: .55rem;
+  }
+}
