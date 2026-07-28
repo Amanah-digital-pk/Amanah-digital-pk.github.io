@@ -97,3 +97,11 @@ Short navigation labels remain concise for usability.
 - Quarto page-grid side columns are disabled.
 - Main canvas is centred and widened to a maximum of 1600 px with equal gutters.
 - Header/navigation ordering is unchanged from v4.3.
+
+
+## v4.5 mobile header correction
+
+- Desktop layout is unchanged.
+- Urdu mobile header places the menu button on the left and the logo on the right.
+- English mobile header keeps the logo on the left and the menu button on the right.
+- The Urdu/English switch is now visible at the top of the opened mobile menu.
