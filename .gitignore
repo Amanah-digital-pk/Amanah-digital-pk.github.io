@@ -1,8 +1,14 @@
+# Quarto output and cache
 _site/
 .quarto/
+
+# Operating-system metadata
 .DS_Store
 ._*
+
+# Logs and temporary files
 *.log
+*~
 
 /.quarto/
 **/*.quarto_ipynb

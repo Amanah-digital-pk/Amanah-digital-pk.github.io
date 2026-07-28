@@ -1,107 +1,90 @@
-# Amanah Digital Website v3
+# Amanah Digital Website
 
-A responsive Quarto corporate website for Amanah Digital, ready for GitHub Pages.
+The official corporate website for **Amanah Digital**.
 
-## Preview locally
+> **Building Pakistan's trusted workforce network.**
+
+Amanah Digital is developing a bilingual digital platform that helps households and businesses connect with trusted service professionals while enabling workers to build credible professional profiles.
+
+## Live website
+
+**https://amanah-digital-pk.github.io**
+
+## Amanah platform
+
+The Amanah platform consists of:
+
+- **Website** — public information about Amanah, its services, trust model, privacy, and mission.
+- **Application** — a bilingual service platform for workers, households, and businesses.
+- **Trust profiles** — structured professional identities supported by verification, experience, and endorsements.
+
+The Amanah application is currently under development. Its planned public address is:
+
+**https://amanah-digital-pk.github.io/app/**
+
+## Technology
+
+- Quarto
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
+- GitHub Actions
+
+## Local development
+
+### Preview
 
 ```bash
 quarto preview
 ```
 
-## Render
+Stop the preview server with `Ctrl+C`.
+
+### Render
 
 ```bash
 quarto render
 ```
 
-## GitHub Pages repository
+The rendered website is written to `_site/`.
 
-Recommended organization:
-
-```text
-amanah-digital-pk
-```
-
-Recommended repository:
+## Main project files
 
 ```text
-amanah-digital-pk.github.io
+.
+├── .github/workflows/
+├── assets/
+├── about.qmd
+├── index.qmd
+├── privacy.qmd
+├── services.qmd
+├── terms.qmd
+├── trust.qmd
+├── styles.css
+└── _quarto.yml
 ```
 
-## Publish
+## Deployment
 
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Launch Amanah Digital Website v3"
+The website is published through GitHub Pages from:
 
-gh repo create amanah-digital-pk/amanah-digital-pk.github.io   --public   --source=.   --remote=origin   --push
-```
+**https://github.com/Amanah-digital-pk/Amanah-digital-pk.github.io**
 
-Then open the repository's **Settings → Pages** and select the `gh-pages` branch after the workflow succeeds.
+Deployment is handled by the workflow in `.github/workflows/`.
 
-## App link
+## Documentation
 
-The website points to:
+- `CHANGELOG.md` — release history
+- `DEPLOYMENT-GUIDE.md` — deployment guidance
+- `GITHUB-PUBLISH-GUIDE.md` — GitHub publishing guidance
+- `LANGUAGE-SYSTEM.md` — bilingual interface behavior
+- `LOGO-USAGE.md` — brand asset usage
 
-```text
-https://amanah-digital-pk.github.io/app/
-```
+## Current status
 
-Change this in `_quarto.yml` and the `.qmd` files if the application is hosted elsewhere.
+The website is online and the Amanah application is under active development.
 
+## Copyright
 
-## v3.3 changes
-
-- Fixed Urdu footer overlap with a stable three-zone desktop grid and single-column mobile footer.
-- Added complete bilingual Privacy and Terms pages.
-- Added precise explanations of identity verification, data use, fees, complaints, safety, and account restrictions.
-- Added a worker-first business model for people with no digital work history, limited literacy, or limited smartphone experience.
-- Added assisted onboarding, voice/visual guidance, transparent training, staged trust building, and accountability for both households and professionals.
-
-
-## v3.4 changes
-
-- Added compact English and Urdu navbar logos with tight SVG viewBoxes.
-- Urdu brand rendering now uses `امانت ڈیجیٹل`.
-- Replaced `سابق مالک` with respectful `سابق گھرانہ یا ادارہ`.
-- Expanded digital-support wording to smartphones, bank accounts, Easypaisa, and JazzCash.
-- Removed the Urdu-to-English flash on Privacy and Terms pages.
-- Increased the actual visible logo size across desktop, tablet, and mobile.
-
-
-## v3.6
-- Corrected the Urdu logo lockup: mark on the right, large `أمانة`, and smaller `ڈیجیٹل` underneath.
-
-
-## Final v3.7 naming rule
-
-Every prominent branded label begins with:
-
-- Urdu: `أمانة`
-- English: `Amanah`
-
-Short navigation labels remain concise for usability.
-
-## v4.3 definitive layout
-
-- Replaced Quarto's generated navbar with one custom bilingual header.
-- Eliminated duplicate-logo generation at the source.
-- Applied equal left and right gutters with a centred 1500 px canvas.
-- Added a controlled smartphone/tablet hamburger menu.
-
-
-## v4.4 final corrections
-- Correct logo is selected before first paint; no English-logo flash in Urdu.
-- Quarto page-grid side columns are disabled.
-- Main canvas is centred and widened to a maximum of 1600 px with equal gutters.
-- Header/navigation ordering is unchanged from v4.3.
-
-
-## v4.5 mobile header correction
-
-- Desktop layout is unchanged.
-- Urdu mobile header places the menu button on the left and the logo on the right.
-- English mobile header keeps the logo on the left and the menu button on the right.
-- The Urdu/English switch is now visible at the top of the opened mobile menu.
+Copyright © Amanah Digital. All rights reserved.
