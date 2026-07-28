@@ -1,6 +1,9 @@
 (() => {
   const STORAGE_KEY = "amanah-language";
-  const initial = localStorage.getItem(STORAGE_KEY) || "ur";
+  const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+  const initial = requestedLanguage === "en" || requestedLanguage === "ur"
+    ? requestedLanguage
+    : (localStorage.getItem(STORAGE_KEY) || "ur");
 
   const assetUrl = (path) => new URL(path, document.baseURI).href;
 
