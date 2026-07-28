@@ -18,9 +18,13 @@ The Amanah platform consists of:
 - **Application** — a bilingual service platform for workers, households, and businesses.
 - **Trust profiles** — structured professional identities supported by verification, experience, and endorsements.
 
-The Amanah application is currently under development. Its planned public address is:
+The Amanah public prototype is live at:
 
 **https://amanah-digital-pk.github.io/app/**
+
+The bilingual public Vision page is available at:
+
+**https://amanah-digital-pk.github.io/vision.html**
 
 ## Technology
 
@@ -58,6 +62,7 @@ The rendered website is written to `_site/`.
 ├── about.qmd
 ├── index.qmd
 ├── privacy.qmd
+├── vision.qmd
 ├── services.qmd
 ├── terms.qmd
 ├── trust.qmd
@@ -83,7 +88,7 @@ Deployment is handled by the workflow in `.github/workflows/`.
 
 ## Current status
 
-The website is online and the Amanah application is under active development.
+The website and bilingual Amanah public prototype are online. The application remains an illustrative prototype while product, legal, verification, and operational systems are developed.
 
 ## Copyright
 

@@ -1,0 +1,86 @@
+---
+title: "Amanah Vision"
+page-layout: full
+---
+
+::: {.page-title .vision-page-title}
+::: {.wrap}
+<span class="eyebrow"><span class="l-ur">أمانة کا وژن</span><span class="l-en">Amanah's Vision</span></span>
+
+# <span class="l-ur">خدمات، روزگار اور پیشہ ورانہ شناخت کے لیے قابلِ اعتماد راستہ</span><span class="l-en">A trusted path to services, work and professional recognition.</span>
+
+<p class="lead"><span class="l-ur">أمانة ڈیجیٹل پاکستان کے لیے ایسا خدماتی نیٹ ورک بنا رہا ہے جس میں خدمت گار کو مرکزی اہمیت حاصل ہو۔ مقصد یہ ہے کہ گھرانے اعتماد کے ساتھ مناسب خدمات حاصل کر سکیں، جبکہ خدمت گار شناخت، مہارت، تصدیق شدہ کام اور ذمہ دارانہ رویّے کے ذریعے اپنا مستقل پیشہ ورانہ ریکارڈ بنا سکیں۔</span><span class="l-en">Amanah Digital is building a worker-centred services network for Pakistan. The aim is to help households find dependable support while enabling service professionals to build a portable record of trust through identity, skills, verified work and accountable conduct.</span></p>
+:::
+:::
+
+::: {.section .soft-section}
+::: {.wrap}
+::: {.section-head}
+## <span class="l-ur">أمانة کس مستقبل کے لیے کام کر رہا ہے</span><span class="l-en">What Amanah is working toward</span>
+
+<span class="l-ur">ایسا نظام جو قابلِ اعتماد خدمات اور باعزت پیشہ ورانہ مواقع دونوں کو وسعت دے۔</span><span class="l-en">A system that expands both dependable services and dignified professional opportunity.</span>
+:::
+
+::: {.grid3}
+::: {.card .model-card}
+<div class="model-number">01</div>
+
+### <span class="l-ur">گھرانوں کے لیے واضح اعتماد</span><span class="l-en">Trusted access for households</span>
+
+<span class="l-ur">لوگ یہ سمجھ سکیں کہ وہ کس کی خدمات حاصل کر رہے ہیں، کیا جانچا گیا ہے، اور سابقہ کام کس حد تک خدمت گار کے ریکارڈ کی حمایت کرتا ہے۔</span><span class="l-en">People should be able to understand who they are hiring, what has been checked and what previous work supports a professional's record.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">02</div>
+
+### <span class="l-ur">محنت کشوں کے لیے منصفانہ آغاز</span><span class="l-en">A fair start for workers</span>
+
+<span class="l-ur">کسی شخص کے پاس پہلے سے آن لائن پروفائل، ذاتی سفارش یا طویل ملازمت کا تجربہ نہ بھی ہو، تب بھی وہ آگے بڑھنے کا موقع حاصل کر سکے۔</span><span class="l-en">A person should be able to begin without an existing online profile, personal connections or a long employment history.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">03</div>
+
+### <span class="l-ur">حقیقی کام سے قائم ہونے والی شناخت</span><span class="l-en">Recognition built through real work</span>
+
+<span class="l-ur">مہارت، سفارشات، مکمل شدہ کام اور ذمہ دارانہ رویّہ وقت کے ساتھ پیشہ ورانہ پروفائل کو مضبوط بنائیں۔</span><span class="l-en">Skills, recommendations, completed assignments and responsible conduct should strengthen a professional profile over time.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">04</div>
+
+### <span class="l-ur">آسان ڈیجیٹل رسائی</span><span class="l-en">Accessible digital participation</span>
+
+<span class="l-ur">سادہ زبان، تصویری رہنمائی اور معاون اندراج کے ذریعے محدود اسمارٹ فون یا ڈیجیٹل ادائیگی کے تجربے رکھنے والے افراد بھی پلیٹ فارم استعمال کر سکیں۔</span><span class="l-en">Simple language, visual guidance and assisted onboarding should make the platform usable for people with limited smartphone or digital-payment experience.</span>
+:::
+
+::: {.card .model-card}
+<div class="model-number">05</div>
+
+### <span class="l-ur">دونوں جانب اعتماد اور جواب دہی</span><span class="l-en">Trust and accountability on both sides</span>
+
+<span class="l-ur">واضح اصول، شفاف ریکارڈ اور منصفانہ شکایتی عمل گھرانوں اور خدمت گاروں دونوں پر لاگو ہوں۔</span><span class="l-en">Clear expectations, transparent records and fair complaint processes should apply to households as well as service professionals.</span>
+:::
+
+::: {.card .model-card .vision-long-term-card}
+<div class="model-number">06</div>
+
+### <span class="l-ur">طویل مدتی وژن</span><span class="l-en">Long-term vision</span>
+
+**<span class="l-ur">پاکستان کا سب سے قابلِ اعتماد افرادی قوت اور خدماتی نیٹ ورک بننا—جو قابلِ بھروسا خدمات، باعزت مواقع اور مستقل پیشہ ورانہ شناخت تک رسائی کو وسیع کرے</span><span class="l-en">To become Pakistan's most trusted workforce and services network—one that expands access to dependable services, dignified opportunity and portable professional reputation.</span>**
+:::
+:::
+:::
+:::
+
+::: {.cta-band}
+::: {.wrap .cta-inner}
+<div>
+## <span class="l-ur">أمانة کو عملی شکل میں دیکھیں</span><span class="l-en">Experience Amanah in action</span>
+
+<span class="l-ur">عوامی نمونہ ایپ میں خدمات، پیشہ ورانہ تعارف اور مرحلہ وار اعتماد کا مجوزہ تجربہ دیکھیں۔</span><span class="l-en">Explore services, professional profiles and the planned staged-trust experience in the public prototype.</span>
+</div>
+
+<a class="btnx light" href="https://amanah-digital-pk.github.io/app/"><span class="l-ur">أمانة ایپ کھولیں</span><span class="l-en">Open Amanah App</span></a>
+:::
+:::

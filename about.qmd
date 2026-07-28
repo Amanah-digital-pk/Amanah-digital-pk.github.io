@@ -7,7 +7,7 @@ page-layout: full
 ::: {.wrap}
 <span class="eyebrow"><span class="l-ur">أمانة ڈیجیٹل کے بارے میں</span><span class="l-en">About Amanah Digital</span></span>
 
-# <span class="l-ur">پاکستان کے لیے قابلِ اعتماد خدماتی نیٹ ورک۔</span><span class="l-en">Trusted workforce infrastructure for Pakistan.</span>
+# <span class="l-ur">پاکستان کے لیے قابلِ اعتماد خدماتی نیٹ ورک</span><span class="l-en">Trusted workforce infrastructure for Pakistan.</span>
 
 <p class="lead"><span class="l-ur">أمانة ڈیجیٹل ایسا خدماتی نظام بنا رہا ہے جو گھرانوں کو آسانی اور حفاظت فراہم کرے اور محنت کشوں کو شناخت، عزت اور اپنے کام کا مستقل ریکارڈ بنانے کا موقع دے۔</span><span class="l-en">Amanah Digital is developing a worker-centred services platform that combines household convenience with identity, dignity and portable professional reputation.</span></p>
 :::
@@ -26,6 +26,10 @@ page-layout: full
 
 ## <span class="l-ur">ہماری اقدار</span><span class="l-en">Values</span>
 <span class="l-ur">اعتماد، عزت، حفاظت، سادگی، جواب دہی اور بہتر مواقع۔</span><span class="l-en">Trust, dignity, safety, simplicity, accountability and opportunity.</span>
+
+<div class="button-row vision-link-row">
+<a class="btnx secondary" href="vision.html"><span class="l-ur">أمانة کا مکمل وژن پڑھیں</span><span class="l-en">Read Amanah's full vision</span></a>
+</div>
 :::
 :::
 

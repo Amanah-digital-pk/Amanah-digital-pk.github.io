@@ -2,6 +2,15 @@
 
 Notable changes to the Amanah Digital website are documented here.
 
+## v4.6 — Vision and live-app integration
+
+- Added a dedicated bilingual public Vision page without exposing confidential investor or implementation details.
+- Connected the Vision page to the live Amanah public prototype.
+- Added language-query support so links from the app open the website in the current Urdu or English language.
+- Removed unnecessary terminal punctuation from the Urdu About-page headline.
+- Centred Privacy and Terms links in the smartphone footer while preserving the desktop layout.
+- Updated repository documentation to identify the application as live rather than planned.
+
 ## v4.5 — Mobile header correction
 
 - Kept the established desktop layout unchanged.
